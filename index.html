@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joyeux Anniversaire ACHI</title>
     
-    <style>
+   <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -15,18 +15,20 @@
         }
         .container {
             padding: 2rem;
-            max-width: 600px;
+            max-width: 400px; /* Réduction de la largeur du conteneur */
             margin: 2rem auto;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             border-radius: 10px;
         }
         img {
-            max-width: 100%;
-            height: auto;
+            width: 50%; /* Réduction de la taille de l'image */
+            height: 50%;
             border-radius: 10px;
             filter: hue-rotate(300deg) saturate(1.5);
             transition: transform 0.5s ease, box-shadow 0.5s ease;
+            margin: 0 auto; /* Centrer l'image */
+            display: block; /* Assurer que l'image soit un élément block pour centrer correctement */
         }
         img:hover {
             transform: scale(1.05);
